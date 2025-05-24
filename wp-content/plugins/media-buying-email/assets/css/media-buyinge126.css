@@ -1,0 +1,156 @@
+/* Form Container */
+.request-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group small {
+    display: block;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Input Fields */
+.request-form textarea,
+.request-form input[type="text"],
+.request-form input[type="email"],
+.request-form input[type="date"],
+.request-form input[type="file"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.request-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.request-form input[type="file"] {
+    padding: 8px 0;
+}
+
+/* Platform Buttons */
+.social-platforms-buttons,
+.social-buttons-paid,
+.customer2-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.platform-button,
+.social-button-paid,
+.customer2-button {
+    padding: 10px 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.platform-button:hover,
+.social-button-paid:hover,
+.customer2-button:hover {
+    background: #e9e9e9;
+}
+
+.platform-button.selected,
+.social-button-paid.selected,
+.customer2-button.selected {
+    background: #0073aa;
+    color: white;
+    border-color: #006799;
+}
+
+/* Budget Slider */
+input[type="range"] {
+    width: 100%;
+    height: 8px;
+    margin: 15px 0;
+    -webkit-appearance: none;
+    background: #ddd;
+    border-radius: 4px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0073aa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#budgetValue-unique {
+    color: #0073aa;
+    font-size: 18px;
+}
+
+/* Submit Button */
+.request-btn4 {
+    padding: 12px 30px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.request-btn4:hover {
+    background: #006799;
+}
+
+/* Notices */
+.mbr-notice {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.mbr-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.mbr-error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* File Upload Styling */
+.file-selected {
+    display: inline-block;
+    margin-left: 10px;
+    color: #0073aa;
+    font-weight: normal;
+}
